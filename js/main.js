@@ -18,9 +18,9 @@ class ImageMaker {
         this.imagePreview = document.getElementById('image-preview');
       
         // create a new text color
-        this.textColor = document.createElement('color');
-        this.textColor.setAttribute('class', 'text-color')
-        this.imagePreview.appendChild(this.textColor);
+        //this.textColor = document.createElement('color');
+        //this.textColor.setAttribute('class', 'text-color')
+        //this.imagePreview.appendChild(this.textColor);
 
         // create a new `<p>` element called `this.topText`
         this.topText = document.createElement('p');
