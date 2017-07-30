@@ -47,7 +47,7 @@ class ImageMaker {
         // Select the `input` element with the `name` attribute "bottomText"
         this.bottomTextInput = document.querySelector('input[name="bottomText"]');
         // Set the `input` element with the `name` attribute "textColor"
-        this.textColorInput = document.querySelector('input[name="textColor"]');
+        this.textColorInput = document.querySelector('select[name="textColor"]');
 
         // NOTE: If you add additional form fields to modify other aspects of
         // the image, then you will need to make attributes for each of those
