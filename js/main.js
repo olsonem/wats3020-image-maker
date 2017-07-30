@@ -17,11 +17,6 @@ class ImageMaker {
         // Select the `#image-preview` div using any document selector method.
         this.imagePreview = document.getElementById('image-preview');
       
-        // create a new text color
-        //this.textColor = document.createElement('color');
-        //this.textColor.setAttribute('class', 'text-color')
-        //this.imagePreview.appendChild(this.textColor);
-
         // create a new `<p>` element called `this.topText`
         this.topText = document.createElement('p');
         // Add a `class` attribute to `this.topText` that contains the classname "top-text".
@@ -66,7 +61,9 @@ class ImageMaker {
         this.topText.innerHTML = this.topTextInput.value;
         // Update the `innerHTML` of `this.bottomText`
         this.bottomText.innerHTML = this.bottomTextInput.value;
+        // Update the top text color
         this.topText.style.color = this.textColorInput.value;
+        // Update the bottom text color
         this.bottomText.style.color = this.textColorInput.value;
 
     }
